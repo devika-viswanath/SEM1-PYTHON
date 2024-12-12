@@ -1,0 +1,10 @@
+import datetime
+now=datetime.datetime.now()
+print("a)current date and time:",now)
+print("b)current year:",now.year)
+print("c)month of the year:",now.month)
+print("d)week number of the year: ",now.isocalendar()[1])
+print("e)weekday Number:",now.weekday())
+print("f)Day of the year:",now.timetuple().tm_yday)
+print("g)Day of the month:",now.day)
+print("h)Day of week:",now.isoweekday())
